@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html>  
+	<head>
+		<meta name="viewport" content="width=320">
+		<title>WebFace</title>
+		<script src="./js/jquery-1.4.2.min.js"></script>
+		<script src="./js/scripts.js"></script>
+		<link href="./css/main.css" rel="stylesheet" type="text/css">
+		<link REL="SHORTCUT ICON" HREF="./images/icon.png">
+	</head>
+	<body>
+
+	<div class="mainContent">
+		<div style="margin:30px;"></div>
+		<div class="title">
+			Welcome to WebFace
+		</div>
+		<div style="margin:40px;"></div>
+		<div class="form" style="margin:15px;">
+			Send Command<br>
+			<input id="command" class="textbox" type="text" onkeyup="if(event.keyCode == 13){sendCommand();}"><br>
+			<div id="result" class="result"></div>
+			<div class="button" style="float:right;" onclick="sendCommand();">
+				Send
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

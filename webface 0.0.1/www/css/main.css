@@ -1,0 +1,85 @@
+@-o-viewport {
+  width: 320px;
+  zoom: 1;
+  maximum-scale:	1;
+}
+
+body {
+	font-family:arial;
+	font-size:16px;
+	color:#666666;
+}
+
+.mainContent {
+	margin:15px;
+}
+
+.title {
+	font-size:20px;
+}
+
+.result {
+	margin-left:5px;
+	font-size:14px;
+	color:#ff0000;
+}
+
+.form {
+	width:224px;
+}
+
+.button {
+	-moz-box-shadow:inset 0px 1px 2px -1px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 2px -1px #bbdaf7;
+	box-shadow:inset 0px 1px 2px -1px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:#79bbff;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	border-radius:13px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:4px 23px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #528ecc;
+	margin-top:5px;
+	margin-bottom:10px;
+}.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+	cursor:pointer;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+.textbox {
+	-moz-box-shadow:inset 0px 1px 2px -1px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 2px -1px #ffffff;
+	box-shadow:inset 0px 1px 2px -1px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #f6f6f6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6');
+	background-color:#ffffff;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+	border-radius:13px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#666666;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:4px 23px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+	margin-top:5px;
+	margin-bottom:10px;
+}
