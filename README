@@ -1,0 +1,17 @@
+Welcome to the WebFace open source web based printer interface project.
+
+Our intent is to create and distribute a web interface which has similar 
+functionality to Pronter Face for use with open source 3d printers.
+
+This will entail a light Python web server which can send posted 
+commands and posted gcode files to a serial port connected 3d printer. 
+It will also include a client side web site which utilizes HTML, 
+Javascript, CSS and jQuery.
+
+At this point we'd like to utilize the printcore.py source file from
+the Pronter Face project in order to handle the communication to/from
+the printer.
+
+If you have questions or if you are interested in contributing to the
+project, please contact engineglue at #reprap or engineglue@gmail.com
+
